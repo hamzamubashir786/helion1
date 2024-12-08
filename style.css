@@ -17,14 +17,22 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 30px;
-    margin-top: 10px;
+    padding: 0px 35px;
     justify-content: space-between;
+    margin-top: 10px;
     position: fixed;
+    transition: 300ms;
     color: white;
     z-index: 100;
 }
-
+.bgNav{
+    background-color: white;
+    color: black;
+    margin-top: 0px;
+}
+.bgNav img{
+    filter: invert(1);
+}
 nav>ul {
     display: flex;
     position: relative;
